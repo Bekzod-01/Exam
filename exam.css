@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.firts_section{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: url(./UZ_en_20210823_popsignuptwoweeks_perspective_alpha_website_large.jpg);
+    height: 790px;
+}
+
+nav{
+    position: relative;
+}
+
+nav img{
+   width: 250px;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+nav label{
+    /* margin-left: 200px; */
+}
+
+nav label select{
+    width: 100px;
+    height: 40px;
+   
+}
+
+nav label select{
+    margin-left: 10px;
+    background-color: rgb(38, 37, 37);
+    color: #fff;
+}
+
+nav button{
+    width: 100px;
+    height: 40px;
+    /* border-radius: 5px; */
+    border: none;
+    background-color:rgb(245, 16, 16) ;
+    color: #fff;
+    /* margin-left: 700px; */
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 670px;
+    /* margin: 0 50px; */
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+}
+
+.wrapper_box1{
+    position: relative;
+    left: 100px;
+}
+
+.box1{
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    text-align: center;
+    left: 300px;
+}
+
+.box1 h1{
+    width: 640px;
+    height: 110px;
+    font-size: 60px;
+}
+
+.box1 h2{
+    width: 640px;
+    height: 33px;   
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.box1 p{
+    width: 593px;
+    height: 58px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 50px;
+    
+    height: 48px;
+    display: flex;
+    /* margin-left: 200px; */
+}
+
+form input{
+    width: 550px;
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+}
+
+form input{
+   padding: 0 20px;
+}
+
+.btnt2{
+    height: 48px;
+    background-color:rgb(242, 37, 37) ;
+    /* border-radius: 5px; */
+    border: none;
+    width: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+
+form span{
+    color: rgb(38, 37, 37);
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(51, 48, 48);
+}
+
+.second_section{
+    /* background-image: url(./TV.png); */
+    position: relative;
+    background-color:black ;
+    width: 100%;
+    height: 500px;
+    /* margin-top: 5px; */
+    justify-content: center;
+    margin: auto;
+    /* left: 100px; */
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 100px;
+  
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(67, 64, 64);
+}
+
+
+.box2 p{
+    width: 450px;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.box2 h1{
+    width: 400px;
+    color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 50px;
+}
+
+.box2 img{
+    position: absolute;
+    left: 600px;
+}
+
+
+.third_section{
+    /* background-image: url(./TV.png); */
+    position: relative;
+    background-color:black ;
+    width: 100%;
+    height: 500px;
+    /* margin-top: 5px; */
+    justify-content: center;
+}
+
+/* .box3{
+   display: flex;
+   justify-content: center;
+ 
+} */
+
+.box3{
+   position: absolute;
+   top: 100px;
+}
+
+.box3 p{
+   width: 500px;
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 310px;
+   left: 700px;
+
+
+}
+
+.box3 h1{
+   width: 420px;
+   color: #fff;
+   position: absolute;
+   left: 700px;
+   top: 100px;
+   font-size: 50px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(67, 64, 64);
+}
+
+/* 
+.box3 img{
+   position: absolute;
+   left: 600px;
+} */
+
+
+
+.fourth_section{
+    /* background-image: url(./TV.png); */
+    position: relative;
+    background-color:black ;
+    width: 100%;
+    height: 500px;
+    /* margin-top: 5px; */
+    justify-content: center;
+    margin: auto;
+}
+
+.box4{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+ 
+}
+
+
+.box4 p{
+   width: 500px;
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 220px;
+   left: 50px;
+}
+
+.box4 h1{
+   color: #fff;
+   position: absolute;
+   left: 50px;
+   top: 100px;
+   font-size: 50px;
+}
+
+.box4 img{
+   position: absolute;
+   left: 600px;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(67, 64, 64);
+}
+
+
+.fifth_section{
+    /* background-image: url(./TV.png); */
+    position: relative;
+    background-color:black ;
+    width: 100%;
+    height: 600px;
+    /* margin-top: 5px; */
+    justify-content: center;
+    margin: auto;
+}
+
+/* .box3{
+   display: flex;
+   justify-content: center;
+ 
+} */
+
+.box5{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.box5 p{
+   width: 500px;
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 230px;
+   left: 700px;
+
+
+}
+
+.box5 h1{
+   width: 480px;
+   color: #fff;
+   position: absolute;
+   left: 700px;
+   top: 100px;
+   font-size: 50px;
+   position: ;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(67, 64, 64);
+}
+
+
+.last__wrapper {
+    width: 100%;
+    height: 901px;
+    background-color: black;
+    position: relative;
+}
+
+.last__wrapper h1 {
+    width: 800px;
+    height: 60px;
+    font-size: 3.56rem;
+    color: white;
+   
+    position: absolute;
+    top: 55px;
+    left: 385px;
+}
+
+.last__wrapper__block h1 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    margin: 10px auto;
+    font-weight: 400;
+    color: #fff;
+}
+
+.last__wrapper__block h2 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    margin: 10px auto;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.last__wrapper__block h3 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    margin: 10px auto;
+    font-weight: 400;
+    color: #fff;
+ 
+}
+
+.last__wrapper__block h4 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    margin: 10px auto;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.last__wrapper__block h5 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    margin: 10px auto;
+    font-weight: 400; 
+    color: #fff;
+
+}
+
+.last__wrapper__block h6 {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px auto;
+
+}
+
+.last__wrapper__block p {
+    width: 815px;
+    height: 76px;
+    background-color: #303030;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 10px auto;
+    color: #fff;
+
+}
+
+.last__wrapper span{
+    font-size: 20px;
+    position: absolute;
+   
+    color: #fff;
+
+}
+
+.last__wrapper__block{
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+
+.last__wrapper button{
+    width: 350px;
+    height: 70px;
+    border: none;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    font-size: 1.875rem;
+    position: absolute;
+    top: 800px;
+    left: 845px;
+}
+
+.last__wrapper input{
+    width: 500px;
+    height: 70px;
+    background-color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    position: absolute;
+    top: 800px;
+    left: 345px;
+    padding: 0 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.six_section{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    position: relative;
+}
+
+.last_div{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.last_div h1{
+    font-size: 20px;
+    color: rgb(160, 149, 149)
+}
+
+.last_div ul li{
+    color: rgb(160, 149, 149)
+}
+
+.ulp{
+    margin: 0 50px;
+}
+
+.ulp2{
+    margin: 0 100px;
+}
+
+.last_div ul li{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.last_div ul{
+   margin-top: 40px;
+
+}
+
+.ulp3{
+    margin-left: -180px;
+}
+
+.last_div h1{
+    margin-left: 70px;
+}
+
+.lable{
+    position: absolute;
+    top: 290px;
+    left: 330px;
+}
+
+.lable select{
+    width: 120px;
+    height: 40px;
+    border: solid 1px grey;
+    background-color: black;
+    color: grey;
+    font-size: 18px;
+}
+
+.lable select option{
+    padding: 0 20px;
+}
+
+.lable p{
+    color: grey;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:700px) {
+    .firts_section {
+     background-position: center center;
+    }
+    
+    nav img{
+       width: 50px;
+    }
+}
+
